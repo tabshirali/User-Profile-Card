@@ -3,7 +3,7 @@
   --bg-page-2: #ffe2ec;
   --card-bg: #fff7fa;
 
-  --pink-deep: #ff6fa5;
+  --pink-deep: #a33c62;
   --pink-soft: #ffc1d9;
   --purple-pink: #c97bb0;
 
@@ -158,13 +158,28 @@ h2 {
 
 .social-btn {
   display: block;
+  width: 100%;
   text-align: center;
+
   padding: 14px;
   border-radius: 999px;
-  text-decoration: none;
 
-  background: rgb(255, 238, 243);;
+  background: rgb(255, 238, 243);
   border: 2px solid var(--pink-soft);
   color: var(--pink-deep);
+
   font-weight: 600;
+  font-family: var(--font-body);
+
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.2s ease;
+}
+
+.social-btn:hover {
+  background: #a33c62;
+  color: white;
+}
+
+.social-btn:active {
+  transform: scale(0.97);
 }
