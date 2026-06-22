@@ -7,7 +7,7 @@
   --pink-soft: #ffc1d9;
   --purple-pink: #c97bb0;
 
-  --ink: #4a3b43;
+  --ink: #810f4c;
   --ink-light: #8a7680;
   --white: #ffffff;
 
@@ -38,7 +38,7 @@ body {
   padding: 24px;
 }
 
-/* CARD */
+
 .card {
   position: relative;
   width: min(90vw, 450px);
@@ -56,7 +56,7 @@ body {
     0 4px 8px rgba(255, 111, 165, 0.12);
 }
 
-/* top section */
+
 .card-top {
   display: flex;
   flex-direction: column;
@@ -85,7 +85,6 @@ body {
   margin-bottom: 16px;
 }
 
-/* stats */
 .stats-list {
   display: flex;
   justify-content: center;
@@ -104,7 +103,6 @@ body {
   text-transform: uppercase;
 }
 
-/* follow button */
 .follow-btn {
   margin-top: 14px;
   width: 100%;
@@ -119,7 +117,6 @@ body {
   box-shadow: 0 6px 12px rgba(255, 111, 165, 0.2);
 }
 
-/* content wrapper */
 .content {
   margin-top: 18px;
   display: flex;
@@ -127,18 +124,14 @@ body {
   gap: 14px;
 }
 
-/* mini cards */
-.location-section,
-.music-card,
 .about-section,
 .social-section {
-  background: rgba(255,255,255,0.5);
+  background: rgba(251, 144, 181, 0.281);
   padding: 16px;
   border-radius: 20px;
   text-align: left;
 }
 
-/* headings */
 h2 {
   font-family: var(--font-display);
   font-size: 1rem;
@@ -146,36 +139,17 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* location */
-.location-section {
-  text-align: center;
-  color: var(--ink-light);
-  font-size: 0.9rem;
-}
 
-/* music */
-.music-card {
-  background: linear-gradient(135deg, #ffc1d9, #ffe6ef);
-}
-
-.song-title {
-  font-weight: 700;
-  color: var(--ink);
-}
-
-.artist-name {
-  color: var(--ink-light);
-  font-size: 0.85rem;
-}
-
-/* about */
 .about-section p {
+    display: block;
+    border-radius: 20px;
+    padding: 14px;
+  background-color: rgb(255, 238, 243);
   color: var(--ink);
   font-size: 0.9rem;
   line-height: 1.6;
 }
 
-/* socials */
 .social-section {
   display: flex;
   flex-direction: column;
@@ -189,7 +163,7 @@ h2 {
   border-radius: 999px;
   text-decoration: none;
 
-  background: white;
+  background: rgb(255, 238, 243);;
   border: 2px solid var(--pink-soft);
   color: var(--pink-deep);
   font-weight: 600;
